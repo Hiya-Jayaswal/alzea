@@ -13,7 +13,7 @@ from pydub import AudioSegment
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-co = cohere.Client("dFEsoa0hlyTNoPrzz0m7FqrYK2MECPaZiqSYVSld")
+co = cohere.Client("key")
 PROFILES_FILE = "alzea_profiles.json"
 recognizer = sr.Recognizer()
 model = load_model("CNN_model.h5")
