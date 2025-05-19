@@ -12,8 +12,15 @@ import tempfile
 from pydub import AudioSegment
 from tensorflow.keras.models import load_model
 from PIL import Image
+from dotenv import load_dotenv
+from dotenv import dotenv_values
+import os
 
-co = cohere.Client("key")
+
+load_dotenv()
+
+co = cohere.Client(os.getenv("key"))
+
 PROFILES_FILE = "alzea_profiles.json"
 recognizer = sr.Recognizer()
 model = load_model("CNN_model.h5")
