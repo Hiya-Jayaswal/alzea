@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+cohere
+fuzzywuzzy
+SpeechRecognition
+streamlit-webrtc
+av
+numpy
+pydub
+tensorflow
+Pillow
