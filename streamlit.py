@@ -23,7 +23,7 @@ co = cohere.Client(os.getenv("key"))
 
 PROFILES_FILE = "alzea_profiles.json"
 recognizer = sr.Recognizer()
-model = load_model("CNN_model.h5")
+# model = load_model("CNN_model.h5")
 
 # -------------------- Utilities -------------------- #
 
